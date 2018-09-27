@@ -1,0 +1,91 @@
+
+body{/*background:#fefefe; url(https://lh3.googleusercontent.com/-VlWj_qpK8AM/TpYTlVpH5wI/AAAAAAAAA8E/e_IEqzrrUH4/s600/beard_bl_xl.png) no-repeat;*/
+  background:#fefefe url('../img/TEF_100.png') no-repeat;
+	background-position:top 10px right 10px;
+  background-attachment: fixed;
+	color:#333;position:relative;height:97%;padding:0 10px;}
+
+a {	color:#333;text-decoration:none;font-weight:bold;	}
+header a, .footer a{margin-right:20px;}
+
+header {}
+
+.content {margin:30px 0;padding-right:100px;}
+p {margin-top:15px;}
+
+.content a,.TEFCV a {text-decoration:underline;}
+
+.footer {position:fixed;left:10px;bottom:5px;z-index:100;background-color:#fefefe;padding:5px 5px 5px 0;}
+
+.portfolio {padding:0 20px;}
+
+.p_entry {width:80%;position:relative;z-index:1;overflow:hidden;padding:15px;margin-bottom:25px;min-width:950px;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.p_entry_bg {background-color:#CCC;width:100%;position:absolute;height:100%;top:0;left:0;
+	-moz-opacity:.75; filter:alpha(opacity=75); opacity:.75;z-index:-1;}
+.p_entry_content .left {width:50%;}
+
+.p_techList span {font-size:.9em; margin:0 10px 3px 0;white-space: nowrap;}
+.story_box {padding:10px;background-color:#EEE;font-size:1em;line-height:1.1em;margin-bottom:5px;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.p_imgWrapper {margin:0 50px;height:350px;width:350px;overflow:hidden;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.p_imgWrapper img {max-width:350px;}
+.p_imgThumb {float:right;clear:right;width:60px;height:60px;overflow:hidden;margin-bottom:25px;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.p_imgThumb.active {box-shadow: 0 0 8px 4px #BBB;}
+.p_imgThumb img {max-width:60px;}
+
+.TEFCV .row {width:auto;}
+
+ul {list-style:disc outside none;}
+li {margin-left: 25px;}
+/* #Site Styles
+-------------------------------------------------- */
+
+/* #Page Styles
+-------------------------------------------------- */
+
+/* #Media Queries
+-------------------------------------------------- */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 756px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 755px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 755px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #font-face
+-------------------------------------------------- */
+/* 	Create a "fonts" folder at the root,
+	copy your FontName into code below and remove
+	comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+@font-face {
+    font-family: 'NewsCycle-Regular';
+    src: url('../fonts/FontName.eot');
+    src: url('../fonts/NewsCycle-Regular.ttf') format('truetype'),
+         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+    font-weight: normal;
+    font-style: normal; }
